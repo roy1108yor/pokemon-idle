@@ -146,4 +146,9 @@ export default defineConfig({
       inline: ['@vue', '@vueuse', 'vue-demi'],
     },
   },
+  server:{
+    hmr:{
+      clientPort:'443'
+    }
+  }
 })

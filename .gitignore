@@ -7,3 +7,11 @@ dist-ssr
 node_modules
 .idea/
 *.log
+
+# Clacky-related configurations
+.1024*
+!.1024
+.breakpoints
+
+# Package manager directories
+.pnpm-store/
